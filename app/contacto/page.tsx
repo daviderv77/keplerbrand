@@ -112,8 +112,8 @@ export default function ContactoPage() {
               <div className="space-y-6">
                 <div>
                   <h3 className="text-white/50 text-sm mb-2">Email</h3>
-                  <a href="mailto:hola@keplerbrand.com" className="text-lg hover:text-white/70 transition-colors">
-                    hola@keplerbrand.com
+                  <a href="mailto:keplerbrandone@gmail.com" className="text-lg hover:text-white/70 transition-colors">
+                    keplerbrandone@gmail.com
                   </a>
                 </div>
                 <div>

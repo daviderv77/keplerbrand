@@ -93,10 +93,10 @@ export function MaintenanceGate({ children }: { children: React.ReactNode }) {
         <div className="text-sm text-black/40">
           <p>Mientras tanto, contactanos en</p>
           <a
-            href="mailto:hola@keplerbrand.com"
+            href="mailto:keplerbrandone@gmail.com"
             className="text-black/70 hover:text-black transition-colors underline underline-offset-4"
           >
-            hola@keplerbrand.com
+            keplerbrandone@gmail.com
           </a>
         </div>
       </div>
