@@ -36,7 +36,7 @@ export function MaintenanceGate({ children }: { children: React.ReactNode }) {
         <div
           key={src}
           className="absolute inset-0 transition-opacity duration-1000"
-          style={{ opacity: currentImage === index ? 0.12 : 0 }}
+          style={{ opacity: currentImage === index ? 0.25 : 0 }}
         >
           <img
             src={src}
@@ -47,7 +47,7 @@ export function MaintenanceGate({ children }: { children: React.ReactNode }) {
       ))}
 
       {/* Grid overlay of project images */}
-      <div className="absolute inset-0 grid grid-cols-4 grid-rows-2 gap-1 opacity-[0.06]">
+      <div className="absolute inset-0 grid grid-cols-4 grid-rows-2 gap-1 opacity-[0.12]">
         {projectImages.map((src) => (
           <div key={src} className="overflow-hidden">
             <img
