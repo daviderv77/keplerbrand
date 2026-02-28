@@ -2,6 +2,7 @@ import type React from "react"
 import type { Metadata } from "next"
 import { Geist } from "next/font/google"
 import { Analytics } from "@vercel/analytics/next"
+import { MaintenanceGate } from "@/components/maintenance-gate"
 import "./globals.css"
 
 const geist = Geist({ subsets: ["latin"] })
@@ -45,7 +46,9 @@ export default function RootLayout({
   return (
     <html lang="es" className="dark">
       <body className={`${geist.className} font-sans antialiased`}>
-        {children}
+        <MaintenanceGate>
+          {children}
+        </MaintenanceGate>
         <Analytics />
       </body>
     </html>
